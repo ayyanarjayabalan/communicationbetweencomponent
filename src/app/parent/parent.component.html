@@ -1,0 +1,6 @@
+<p>Parent Component: </p>
+
+Parent Name: {{parentName}}
+
+<app-child [name]='childName' (eventName)="parentName = $event"></app-child>
+
